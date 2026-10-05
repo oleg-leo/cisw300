@@ -41,6 +41,6 @@ section {
    grid-template-columns: repeat(2, 1fr);
 }
 
-section > h1 {
+section > h2 {
    grid-area: 1/1/2/3;
 }

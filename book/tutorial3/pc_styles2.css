@@ -73,7 +73,7 @@ nav.horizontalNavigation a:active {
 
 /* Heading Styles */
 
-h1 {
+h1, h2, h3 {
    text-indent: 1em;
 }
 
@@ -87,19 +87,20 @@ body > header h1 {
    color: rgb(234, 229, 211);
 }
 
-body > article > h1, body > section > h1, body > aside > h1, body > section > article > h1 {
+h2, h3 {
    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
    padding: 0.5em 0;
 }
 
-body > article > h1, body > section > h1, body > aside > h1 {
+h2 {
    font-size: 1.3em;
    background-color: rgb(102, 72, 38);
    color: black;
+   text-align: center;
 }
 
 
-section > article > h1 {
+h3 {
    font-size: 1.1em;
 }
 
@@ -127,7 +128,7 @@ aside {
 }
 
 
-aside > h1 {
+aside > h2 {
    text-align: center;
    background-color: rgb(31, 31, 31);
    color: rgb(201, 201, 201);
